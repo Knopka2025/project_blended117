@@ -1,0 +1,292 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:  #434455;
+    background-color: #fff;
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+.container {
+    max-width: 1150px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+img {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+button{
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/*header*/
+.top {}
+
+.h-container {
+    padding: 26px;
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 0.93333;
+    color: #173a56;
+    display: flex;
+    align-items: center;
+    margin-right: 237px;
+}
+
+.logo-img {
+    margin-right: 16px;
+    display: inline-block;
+}
+
+.h-menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.h-product {
+    font-weight: 600;  
+}
+.h-menu-list {}
+/*Change the color*/
+.h-list:hover {}
+.h-list:focus {}
+
+.btn-sign-in {
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    color: #173a56;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 9px 24px;
+    width: 105px;
+}
+
+.btn-sign-up { 
+    border-radius: 4px;
+    background: #02897a;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 9px 24px;
+    width: 113 px;
+}
+
+.btn-header {
+    text-align: center; 
+    gap: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+/*header*/
+
+/*hero page*/
+.hero-section {
+    padding-top: 21px;
+    padding-bottom: 104px;
+}
+
+.container {}
+
+.hero-container {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.hero-left{
+    margin: 112px 35px 112px 0;
+    width: 465px;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5;
+    color: #22343d;
+}
+
+.hero-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #22343d;
+    margin-bottom: 11px;
+}
+
+.menu-btn {   
+    text-align: center;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.btn-hero {
+ 
+}
+
+.btn-started {
+    border-radius: 4px;
+    background: #02897a;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    width: 178 px;
+    padding: 15px 42px;
+}
+
+.btn-video {
+        border: none;
+        color: #FFFFFF;
+        font-weight: 600;
+        font-size: 16px;
+        width: 164 px;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #02897a;
+        background-color: #FFFFFF;
+}
+
+.hero-img {
+    
+} 
+
+/*Products for you*/
+.product {}
+
+.container {}
+
+.product-title {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #22343d;
+    margin-bottom: 50px;
+}
+
+.product-m {}
+
+.menu-product {
+    display: flex;
+    gap: 20px;
+}
+
+.list-product {
+    width: calc((100% - 60px) / 4);
+}
+/*.nowrap {
+    white-space: nowrap;
+}*/
+.name-product {
+    margin-bottom: 13px;
+}
+
+.text-product {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #22343d;
+}
+
+.btm-prod {
+    border-radius: 4px;
+    background: #02897a;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    width: 178 px;
+    padding: 15px 42px;
+}
+ .btm-centre {
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    display: flex;
+}
+
+/*Features*/
+.features {}
+
+.container {
+    padding: 50px 0 100px 0;
+}
+
+.features-container {
+    width: 496px;
+}
+
+.f-title {}
+
+.subtext {
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343d;
+}
+
+.maintext {
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343d;
+}
+
+.f-text {
+    margin: 25px 0 30px 0;
+}
+
+.features-menu {}
+
+.features-list {}
+
+.features-names {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #22343d;
+}
+
+.f-text-li {}
+
+.features-img {}
