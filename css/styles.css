@@ -54,6 +54,7 @@ button{
 .header-nav {
     display: flex;
     align-items: center;
+    padding: 26px 0;
 }
 
 .logo {
@@ -248,14 +249,21 @@ button{
 }
 
 /*Features*/
-.features {}
+.features {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    gap: 84px;
+    justify-content: center;
+}
 
 .container {
-    padding: 50px 0 100px 0;
 }
 
 .features-container {
     width: 496px;
+    margin: 50px;
+    
 }
 
 .f-title {}
@@ -287,6 +295,9 @@ button{
     color: #22343d;
 }
 
+
 .f-text-li {}
 
-.features-img {}
+.features-img {
+
+}
